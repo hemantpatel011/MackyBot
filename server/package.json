@@ -1,15 +1,25 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
-  "author": "Hemant patel",
-  "type": "module",
+  "description": "MackyBot Server",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "bot",
+    "chatbot"
+  ],
+  "author": "Hemant patel",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
