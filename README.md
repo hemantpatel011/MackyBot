@@ -1,11 +1,11 @@
 # MackyBot - A Chatbot for MackyTech
 
-This is the official repository for MackyBot, a chatbot designed to provide information about MackyTech. The chatbot is built with the MERN stack (MongoDB, Express, React, Node.js) and utilizes the OpenAI API for natural language processing.
+This is the official repository for MackyBot, a chatbot designed to provide information about MackyTech. The chatbot is built with the React, Vite, Node.js and Express utilizes the Google Gemini API for natural language processing.
 
 ## Features
 
 *   **Conversational Interface:** Engage in natural conversations with the chatbot to get information about MackyTech.
-*   **OpenAI Integration:** Leverages the power of OpenAI's language models to understand and respond to user queries.
+*   **Google Gemini API Integration:** Leverages the power of Google Gemini large language models to understand and respond to user queries.
 *   **MERN Stack:** Built with a modern and robust technology stack for scalability and maintainability.
 *   **Easy to Use:** Simple and intuitive user interface for a seamless user experience.
 
@@ -19,9 +19,9 @@ This is the official repository for MackyBot, a chatbot designed to provide info
     *   Node.js
     *   Express
     *   Cors
-    *   Body-Parser
+    *   node-fetch
     *   Dotenv
-    *   OpenAI API
+    *   Gemini API
 *   **Development:**
     *   Concurrently
     *   Nodemon
@@ -56,27 +56,28 @@ These instructions will get you a copy of the project up and running on your loc
     ```
 5.  **Navigate to the server directory and install server dependencies:**
     ```bash
-    cd ../server
+    cd server
     npm install
     ```
 
 ### Running the App
 
-1.  **Create a `.env` file in the `server` directory and add your OpenAI API key:**
-    ```
-PORT=5000
-GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+1.  **Create a `.env` file in the `server` directory and add your Google Gemini API  key:**
+2.  
+      ```bash
+   PORT=5000
+   GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+   ```
+2.  Navigate to the root directory of the project:
 
-    ```
-2.  **Navigate to the root directory of the project:**
     ```bash
     cd ..
     ```
-3.  **Run the development server:**
+3.  Run the development server:
     ```bash
     npm  start
     ```
-    This will start both the client and server concurrently. The client will be running on `http://localhost:5173` and the server will be running on `http://localhost:5000`.
+    This will start both the client and server concurrently. The **client** will be running on `http://localhost:5173` and the **server** will be running on `http://localhost:5000`.
 
 ## Project Structure
 
