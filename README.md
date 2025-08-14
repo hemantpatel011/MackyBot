@@ -5,7 +5,7 @@ This is the official repository for MackyBot, a chatbot designed to provide info
 ## Features
 
 *   **Conversational Interface:** Engage in natural conversations with the chatbot to get information about MackyTech.
-*   **OpenAI Integration:** Leverages the power of OpenAI's language models to understand and respond to user queries.
+*   **Google Gemini API Integration:** Leverages the power of Google Gemini large language models to understand and respond to user queries.
 *   **MERN Stack:** Built with a modern and robust technology stack for scalability and maintainability.
 *   **Easy to Use:** Simple and intuitive user interface for a seamless user experience.
 
@@ -19,9 +19,9 @@ This is the official repository for MackyBot, a chatbot designed to provide info
     *   Node.js
     *   Express
     *   Cors
-    *   Body-Parser
+    *   node-fetch
     *   Dotenv
-    *   OpenAI API
+    *   Gemini API
 *   **Development:**
     *   Concurrently
     *   Nodemon
