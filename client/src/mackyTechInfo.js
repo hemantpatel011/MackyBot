@@ -1,6 +1,5 @@
 export const mackyTechInfo = `Introduction:
- I'm MackyBot, I'm your personal AI assistant from Macky's Tech. I'm here to provide you with information about our company, our services, and answer any questions you may
-  have.
+ I'm MackyBot, I'm your personal AI assistant from Macky's Tech.
 
   About Macky's Tech: Pioneering the Future of Technology
 

@@ -1,0 +1,31 @@
+{
+  "name": "mackybot",
+  "version": "1.0.0",
+  "description": " I'm MackyBot, I'm your personal AI assistant from Macky's Tech. I'm here to provide you with information about our company, our services, and answer any questions you may",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "concurrently \"npm start --prefix server\" \"npm start --prefix client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hemantpatel011/MackyBot.git"
+  },
+  "keywords": [
+    "bot",
+    "chatbot",
+    "mackybot",
+    "ai",
+    "chatbot",
+    "aibot"
+  ],
+  "author": "Hemant Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hemantpatel011/MackyBot/issues"
+  },
+  "homepage": "https://github.com/hemantpatel011/MackyBot#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}

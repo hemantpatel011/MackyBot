@@ -11,7 +11,7 @@
 body{
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(#2d2d2d, #dacdff);
+  background: linear-gradient(#2d2d2d, #464646);
 }
 
 
@@ -63,7 +63,7 @@ chatbot-close svg{
   position: fixed;
   opacity: 0;
   pointer-events: none;
-  bottom: 80px;
+  bottom: 25px;
   right: 30px;
   width: 420px;;
   overflow: hidden;
