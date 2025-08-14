@@ -56,27 +56,28 @@ These instructions will get you a copy of the project up and running on your loc
     ```
 5.  **Navigate to the server directory and install server dependencies:**
     ```bash
-    cd ../server
+    cd server
     npm install
     ```
 
 ### Running the App
 
-1.  **Create a `.env` file in the `server` directory and add your OpenAI API key:**
-    ```
-PORT=5000
-GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+1.  **Create a `.env` file in the `server` directory and add your Google Gemini API  key:**
+2.  
+      ```bash
+   PORT=5000
+   GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+   ```
+2.  Navigate to the root directory of the project:
 
-    ```
-2.  **Navigate to the root directory of the project:**
     ```bash
     cd ..
     ```
-3.  **Run the development server:**
+3.  Run the development server:
     ```bash
     npm  start
     ```
-    This will start both the client and server concurrently. The client will be running on `http://localhost:5173` and the server will be running on `http://localhost:5000`.
+    This will start both the client and server concurrently. The **client** will be running on `http://localhost:5173` and the **server** will be running on `http://localhost:5000`.
 
 ## Project Structure
 
