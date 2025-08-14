@@ -1,6 +1,6 @@
 # MackyBot - A Chatbot for MackyTech
 
-This is the official repository for MackyBot, a chatbot designed to provide information about MackyTech. The chatbot is built with the MERN stack (MongoDB, Express, React, Node.js) and utilizes the OpenAI API for natural language processing.
+This is the official repository for MackyBot, a chatbot designed to provide information about MackyTech. The chatbot is built with the React, Vite, Node.js and Express utilizes the Google Gemini API for natural language processing.
 
 ## Features
 
