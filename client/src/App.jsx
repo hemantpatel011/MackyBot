@@ -3,6 +3,7 @@ import ChatbotIcon from "./components/ChatbotIcon";
 import ChatForm from "./components/ChatForm";
 import { ChatMessage } from "./components/ChatMessage";
 import { mackyTechInfo } from "./mackyTechInfo";
+
 const App = () => {
   const [chatHistory, setChatHistory] = useState([{
     hideInChat: true, //hideINChat property is used to prevent the data from being displayed in the chat
@@ -61,6 +62,8 @@ useEffect(() => {
 
   return (
     <div className={`container ${showChatbot ? "show-chatbot" : ""}`}>
+     
+      {/* Chatbot Toggle Button */}
       <button onClick={()=> setShowChatbot(prev => !prev)} id="chatbot-toggler">
         <span className="chatbot material-symbols-rounded"><ChatbotIcon /></span>
         <span className="chatbot-close material-symbols-rounded">close</span>

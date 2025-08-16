@@ -1,4 +1,5 @@
 /* Importing Google Fonts - Inter */
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
 
 *{
@@ -14,43 +15,49 @@ body{
   background: linear-gradient(#2d2d2d, #464646);
 }
 
-
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
 #chatbot-toggler{
   position: fixed;
-  bottom: 25px;
-  right: 30px;
+  bottom: 20px;
+  right: 20px;
   width: 50px;
   height: 50px;
-  background: #fff;
-  color: #000000;
-  border-radius: 50%;
+  background: #3e3e3e;
+  /* border-radius: 50%; */
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 0 3px rgba(21, 255, 0, 1), 0px 0px 3px 1px rgba(21, 255, 0, 1);
+  box-shadow: 0 0 3px 3px #00ff41, 0px 0px 3px 1px #00ff41;
   cursor: pointer;
   transition: all 0.2s ease;
 }
+
 #chatbot-toggler span{
  position: absolute;
- color: #000;
+ color: #00ff41;
 
 }
 
-.container.show-chatbot #chatbot-toggler{
-  transform: rotate(90deg);
+.container.show-chatbot #chatbot-toggler span {
+  transform: rotate(180deg);
 }
 
 .container.show-chatbot #chatbot-toggler span:first-child{
   display: none;
 }
 
-
-
 .chatbot svg{
    height: 38px;
   width: 38px;
   flex-shrink: 0;
+  fill: rgba(21, 255, 0, 1);
+ 
+
 }
 chatbot-close svg{
   height: 30px;
@@ -59,20 +66,21 @@ chatbot-close svg{
   font-size: x-large;
 }
 
+
 .chatbot-popup{
   position: fixed;
   opacity: 0;
   pointer-events: none;
-  bottom: 25px;
-  right: 30px;
-  width: 420px;;
+  bottom: 20px;
+  right: 20px;
+  width: 370px;;
   overflow: hidden;
   background: #fff;
-  border-radius: 10px 10px 0px 10px;
+  /* border-radius: 10px 10px 0px 10px; */
   transform: scale(0.2);
   transform-origin: bottom right;
   transition: all 0.1s ease;
-  box-shadow: 0 0 3px rgba(21, 255, 0, 1), 0px 0px 3px 1px rgba(21, 255, 0, 1);
+  box-shadow: 0 0 3px 3px #00ff41, 0px 0px 3px 1px #00ff41;
 }
 
 .container.show-chatbot .chatbot-popup{
@@ -86,7 +94,7 @@ chatbot-close svg{
   padding: 15px 22px;
   align-items: center;
   justify-content: space-between;
-  background: #000000;
+  background: #414141;
 }
 
 .chat-header .header-info{
@@ -100,15 +108,18 @@ chatbot-close svg{
   width: 35px;
   padding: 6px;
   flex-shrink: 0;
-  fill: #000000;
-  background: #fff;
+  fill:rgba(21, 255, 0, 1);;
+  box-shadow: 0 0 3px 3px #00ff41, 0px 0px 3px 1px #00ff41;
   border-radius: 50%;
 }
 
 .header-info .logo-text {
+  font-family: "VT323", monospace;
+  font-weight: 500;
+  font-size: 1.7rem;
   color: #fff;
-  font-size: larger;
-  font-weight: 600;
+  text-shadow:  3px 3px 4px #00ff41;
+  
 }
 
 .chat-header button{
@@ -160,25 +171,28 @@ chatbot-close svg{
   width: 30px;
   padding: 6px;
   flex-shrink: 0;
-  fill: #147500;
+  fill: #ffffff;
   align-self: flex-end;
   margin-bottom: 2px;
-  background: #ffffff;
+  background: #101010;
   border-radius: 50%;
+  box-shadow: 0 0 3px 3px #00ff41, 0px 0px 3px 1px #00ff41;
 }
 
 .chat-body .message .message-text {
   padding: 6px 15px;
+  margin-left:8px;
   max-width: 75%;
   word-wrap: break-word;
   white-space: pre-line;
   font-size: 0.90rem;
-  color:#147500;
+  color:#0c0c0c;
 }
 
 .chat-body .bot-message .message-text {
   background:#f6f2ff ;
-  border-radius: 13px 13px 13px 3px;
+  border-radius: 13px 13px 13px 0px;
+  box-shadow: 0 0 5px 3px #00ff41, 0px 0px 3px 1px #00ff41;
 }
 
 .chat-body .user-message{
@@ -187,26 +201,26 @@ chatbot-close svg{
 }
 
 .chat-body .user-message .message-text {
- color: #fff;
-  background:#188f01;
-  border-radius: 13px 13px 3px 13px;
+ color: #000000;
+  background:#00ff41;
+  border-radius: 13px 13px 0px 13px;
 }
 
 .chat-footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background: #000000;
-  padding: 18px 18px 18px;
+  background: #414141;
+  padding: 15px 22px 20px;
 }
 
 .chat-footer .chat-form {
  display: flex;
  align-items: center;
- background: #fff;
+ background: #e5e3e3;
  border-radius: 6px;
  outline: 1px solid #cccce5; 
- box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+ box-shadow: 2px 4px 8px #00ff41;
 }
 .chat-footer .chat-form:focus-within {
  outline: 2px solid #6d4fc2;
