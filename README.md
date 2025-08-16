@@ -26,7 +26,6 @@ This is a MackyBot, a chatbot designed to provide information about MackyTech. T
     *   Concurrently
     *   Nodemon
 
-
 ## Project Structure
 
 ```
@@ -42,7 +41,6 @@ MackyBot/
 │   │   ├── index.css
 │   │   ├── mackyTechInfo.js
 │   │   └── main.jsx
-│   ├── .gitignore
 │   ├── eslint.config.js
 │   ├── index.html
 │   ├── package.json
