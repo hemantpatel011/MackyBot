@@ -26,7 +26,7 @@ const ChatForm = ({ chatHistory, setChatHistory, generateBotResponse}) => {
      
         // Calling the function to generate bot's response    
         // Adding a prifix to each user message so the the chatbot responds only based on the provided data.
-      generateBotResponse([...chatHistory, {role: "user", text: `Using the details provided above, please address this query${userMessage} make the heading bold and the text normal.`}]);
+      generateBotResponse([...chatHistory, {role: "user", text: `Using the details provided above, please address this query${userMessage}`}]);
         }, 600);
        
      };
