@@ -80,7 +80,7 @@ useEffect(() => {
         {/* Chatbot Body */}
         <div ref={chatScrollRef} className="chat-body">
           <div className="message bot-message">
-            <ChatbotIcon />
+            {/* <ChatbotIcon /> */}
             <p className="message-text">
               Hey there 👋
               <br />
