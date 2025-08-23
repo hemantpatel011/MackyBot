@@ -3,7 +3,8 @@
 This is a MackyBot, a chatbot designed to provide information about MackyTech. The chatbot is built with the React, Vite, Node.js and Express utilizes the Google Gemini API for natural language processing.
 
 ## Demo
-<video controls src="demoMackybot.mp4" title="Title"></video>
+[![Demo Video](https://github.com/user-attachments/assets/0f13cc20-3360-4744-aea9-f1c7e956f3bd)](https://github.com/user-attachments/assets/0f13cc20-3360-4744-aea9-f1c7e956f3bd)
+
 
 ## Features
 
