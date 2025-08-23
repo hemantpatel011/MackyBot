@@ -2,52 +2,8 @@
 
 **MackyBot** is your personal AI assistant from Macky's Tech, designed to provide instant and comprehensive information about the company, its services, team, and contact details. This project integrates a React-based frontend with a Node.js Express backend, leveraging the Google Gemini AI model to deliver intelligent conversational responses. The chatbot is pre-loaded with extensive information about Macky's Tech to ensure accurate and relevant answers to user queries.
 
-**About Macky's Tech (MackyBot's Knowledge Base):**
-
-Macky's Tech is a forward-thinking technology company dedicated to shaping the future with innovative and powerful solutions. We are dedicated to transforming businesses with our expertise in AI-powered solutions, robust cybersecurity, quantum computing, blockchain technology, artificial intelligence, web/app development, and the Internet of Things (IoT). Macky's Tech is here to help you build businesses and individuals by leveraging technology to solve complex problems and create new opportunities.
-
-Founded by Pankaj Gupta (Macky), a seasoned software developer with over eight years of experience, Macky's Tech is driven by a passion for innovation and a commitment to excellence. Our team of experts is dedicated to delivering high-quality solutions and services that are tailored to meet the unique needs of each client. We are committed to providing top-notch services and building long-lasting partnerships with our clients.
-
-**Company Overview:**
-*   **Name**: Macky’s Tech Pvt Ltd
-*   **Established**: 2022
-*   **Team size**: Approximately 10–50 employees
-
-**Our Mission:**
-At Macky's Tech, we believe in the power of technology to transform businesses and improve lives. Our mission is to empower organizations with innovative solutions that drive growth and success. We are committed to staying at the forefront of technological advancements and delivering exceptional value to our clients.
-
-**Services:**
-*   Custom Software Development
-*   AI-Powered Solutions
-*   Cybersecurity
-*   Quantum Computing
-*   Blockchain Technology
-*   Web & App Development
-*   Cloud Solutions
-*   Data Analytics
-*   DevOps
-*   IT Consulting
-
-**Community Engagement:**
-Macky's Tech is committed to fostering a vibrant tech community. We regularly host hackathons, expert sessions, and other events to promote learning and collaboration. We also offer an internship program for students and recent graduates who are passionate about technology and eager to gain hands-on experience in the field.
-
-**Contact Information:**
-*   **Website**: [https://mackystech.vercel.app/](https://mackystech.vercel.app/)
-*   **YouTube**: [https://www.youtube.com/@MackysTech](https://www.youtube.com/@MackysTech)
-*   **Email**: hr.mackystech@gmail.com, mackystech@gmail.com
-*   **Phone**: +91 82359 10315
-*   **Address**: 20/B, Marathi Mandir, Anand Nagar, Bhopal, Madhya Pradesh – 462022, India
-*   **Response Time**: All inquiries receive a response within 24 hours during business days.
-
-**Social Media:**
-*   **Facebook**: [https://www.facebook.com/share/16t452Joyp/](https://www.facebook.com/share/16t452Joyp/)
-*   **Instagram**: [https://www.instagram.com/mackystech?igsh=MTYxbmRrMnZuMzR2dQ==](https://www.instagram.com/mackystech?igsh=MTYxbmRrMnZuMzR2dQ==)
-*   **LinkedIn**: [https://www.linkedin.com/company/macky-s-tech/](https://www.linkedin.com/company/macky-s-tech/)
-*   **WhatsApp**: [chat.whatsapp.com/Ff2VT5dOadM2nZYv59fv8W](chat.whatsapp.com/Ff2VT5dOadM2nZYv59fv8W) or [https://wa.me/918235910315](https://wa.me/918235910315)
-
-## Screenshots
-
-*(Add screenshots here)*
+## Demo
+https://github.com/user-attachments/assets/55d9ffb4-0b35-417a-9151-447947413dd9
 
 ## Features and Functionalities
 
@@ -302,11 +258,3 @@ Special thanks to:
 *   **Macky's Tech** for the internship opportunity and providing the comprehensive company information that forms the core knowledge base of MackyBot.
 *   **Pankaj Gupta (Macky)**, Founder & CEO of Macky's Tech, for guidance and leadership.
 *   The entire **Macky's Tech team and fellow interns** for a collaborative environment:
-    *   Saud Ansari (Frontend Developer)
-    *   Khushi Gupta (Student Intern)
-    *   Riya Mathur (Web Development Intern)
-    *   Kajal Reddy (Machine Learning Intern)
-    *   Shivam Kumar soni (Full Stack Developer Intern)
-    *   Tanya Sinha (AI Research Intern)
-    *   Purnima Sharma (Android Developer Intern)
-    *   Sujal Pandey (Full Stack Web Development Intern)
