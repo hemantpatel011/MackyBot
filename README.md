@@ -1,7 +1,5 @@
 # MackyBot
 
-## Project Name & Description
-
 **MackyBot** is your personal AI assistant from Macky's Tech, designed to provide instant and comprehensive information about the company, its services, team, and contact details. This project integrates a React-based frontend with a Node.js Express backend, leveraging the Google Gemini AI model to deliver intelligent conversational responses. The chatbot is pre-loaded with extensive information about Macky's Tech to ensure accurate and relevant answers to user queries.
 
 **About Macky's Tech (MackyBot's Knowledge Base):**
