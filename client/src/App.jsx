@@ -2,13 +2,13 @@ import React, {  useEffect, useRef, useState } from "react";
 import ChatbotIcon from "./components/ChatbotIcon";
 import ChatForm from "./components/ChatForm";
 import { ChatMessage } from "./components/ChatMessage";
-import { mackyTechInfo } from "./mackyTechInfo";
+// import { mackyTechInfo } from "./mackyTechInfo";
 
 const App = () => {
   const [chatHistory, setChatHistory] = useState([{
     hideInChat: true, //hideINChat property is used to prevent the data from being displayed in the chat
     role: "model",
-    text: mackyTechInfo //Adding company info as the initial message so it can respond to user queries about the company.
+    text: import.meta.env.VITE_MACKYTECH_INFO //Adding company info as the initial message so it can respond to user queries about the company.
   }]);
   const [showChatbot, setShowChatbot] = useState(false);
   const chatScrollRef = useRef(); 
