@@ -63,6 +63,4 @@ MackyBot/
 
 Hemant Patel - hemantpatel951625@gmail.com
 
-[AI Intern at Macky's Tech]
-
 
