@@ -2,7 +2,7 @@ import React, {  useEffect, useRef, useState } from "react";
 import ChatbotIcon from "./components/ChatbotIcon";
 import ChatForm from "./components/ChatForm";
 import { ChatMessage } from "./components/ChatMessage";
-// import { mackyTechInfo } from "./mackyTechInfo";
+
 
 const App = () => {
   const [chatHistory, setChatHistory] = useState([{
@@ -24,7 +24,7 @@ const App = () => {
 
 
   try{
-      const response = await fetch("http://localhost:5000/api/generate",{
+      const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/generate`,{
         method: "POST",
         headers: {"Content-Type": "application/json"},
         body: JSON.stringify({prompt: history})
